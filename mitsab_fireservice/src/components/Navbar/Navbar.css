@@ -93,7 +93,32 @@
 }
 
 /* Responsive code */
-@media (max-width: 1000px){
+@media (max-width: 1400px){
+    .navbar .nav_tabs{ 
+    margin-left: -1rem;
+
+    }
+    .navbar .nav_tab{
+        width: 8rem;
+    }
+    .navbar .nav_tabs .tab{
+        margin-left: -.5rem;
+        color: var(--color-text);
+       
+       
+        display: flex;
+        align-items: center;
+        
+        cursor: pointer;
+        color: var(--color-text);
+        border-radius: var(--radius-3);
+        font-size: large;
+        font-weight: 600;
+
+
+    }
+}
+@media (max-width: 1200px){
     .navbar .nav_tabs{
         font-size: 1rem;
         position: fixed;

@@ -2,8 +2,7 @@
     background: var(--glow-1);
     position: static !important;
     
-    border: dashed;
-
+  
 }
 #header::before{
     content: "";
@@ -106,6 +105,9 @@
   
 }
 @media (max-width:900px){
+    #header .right_column{
+        display: none;
+    }
     #header .container *{
         text-align: center;
     }
